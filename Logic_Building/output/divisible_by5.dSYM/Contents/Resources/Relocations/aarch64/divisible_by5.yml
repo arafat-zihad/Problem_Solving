@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zihome/Documents/Self Study/Problem_Solving/Logic_Building/output/divisible_by5'
+relocations:     []
+...
