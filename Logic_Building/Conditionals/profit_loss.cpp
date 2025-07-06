@@ -18,6 +18,7 @@ int main(){
         hlose = cprice - sprice;
         cout << " " << hlose << endl;
     }
+    else cout << "No profit" << endl;
 
     return 0;
 }
