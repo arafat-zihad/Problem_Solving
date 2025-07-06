@@ -13,8 +13,11 @@ int main(){
     else if(x == 0){
         cout << "Lies on y-axis" << endl;
     }
-    else {
+    else if(y == 0) {
         cout << "Lies on x-axis" << endl;
+    }
+    else{
+        cout << "Point doesn't lies on x or y axis" << endl;
     }
     return 0;
 }
