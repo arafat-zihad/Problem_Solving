@@ -2,11 +2,12 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
+int main()
+{
     int x;
     cin >> x;
-    if(x < 0)
-    x = x * (-1);
+    if (x < 0)
+        x = x * (-1);
     cout << x << endl;
     return 0;
 }
