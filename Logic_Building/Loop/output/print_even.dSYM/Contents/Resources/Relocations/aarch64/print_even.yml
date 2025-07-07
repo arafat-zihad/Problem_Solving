@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zihome/Documents/Programming/Problem-Solving/Logic_Building/Loop/output/print_even'
+relocations:     []
+...
