@@ -9,8 +9,9 @@ void sw(int &a, int &b){
     return;
 }
 int main(){
-    int x = 3, y = 5;
+    int x, y;
+    cin >> x >> y;
     sw(x, y);
-    cout << "x = " << x << ", y = " << y;
+    cout << "x = "  << x << ", y = " << y;
     return 0;
 }
