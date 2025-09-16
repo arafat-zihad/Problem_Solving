@@ -5,8 +5,8 @@ any student is less than 35 print its roll number.
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    float arr[5] = {80.5, 34, 53, 53.4, 20};
-    for(int i = 0; i < 5; i++){
+    float arr[] = {80.5, 60.5, 12, 59, 34, 53, 53.4, 20};
+    for(size_t i = 0; i < sizeof(arr) / sizeof(arr[0]) ; i++){
         if(arr[i] < 35){
             cout << i << endl;
         }
