@@ -1,4 +1,6 @@
 /*
+Rotste the given arra by k steps, where k is non-negative.
+Note: k can be greater than n as well where n is the size of array arr
 
 4 step to rotate a arr from k:
     1. if K > n, k = k % n
