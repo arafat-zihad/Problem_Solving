@@ -28,6 +28,7 @@ int main(){
 
     cout << "Enter the value of k: ";
     int k; cin >> k;
+    k = k % n;
 
     reverse(arr.data(), 0, n-1);
     reverse(arr.data(), 0, 2);
