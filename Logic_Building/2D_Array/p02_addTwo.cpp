@@ -21,8 +21,7 @@ int main(){
         }
     }
 
-
-
+    // With using extra array
     for(int i = 0; i < r; i++){
         for(int j = 0; j < c; j++){
             result[i][j] = arr[i][j] + brr[i][j];
@@ -33,6 +32,16 @@ int main(){
     for(int i = 0; i < r; i++){
         for(int j = 0; j < c; j++){
             cout << result[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    
+    //Without using extra array
+
+    for(int i = 0; i < r; i++){
+        for(int j = 0; j < c; j++){
+            cout <<  arr[i][j] + brr[i][j] << " ";
         }
         cout << endl;
     }
