@@ -9,7 +9,6 @@ Stack = Last in First Out (LIFO)
 4. size()
 5. top()
 6. pop()
-
 */
 
 #include <bits/stdc++.h>
@@ -38,7 +37,6 @@ int main(){
         cout << st.top() << " ";
         st.pop(); 
     }
-
 
     return 0;
 }
