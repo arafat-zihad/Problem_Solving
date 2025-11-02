@@ -1,0 +1,5 @@
+1. Priority_Queue declaration
+2. push()
+3. empty()
+4. size()
+5. top()
